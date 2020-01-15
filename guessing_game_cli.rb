@@ -2,7 +2,7 @@
 require "pry"
 
 def generate_number
-  number = rand(6) + 1 
+  rand(6) + 1 
 end 
 
 def prompt 
