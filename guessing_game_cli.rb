@@ -30,6 +30,6 @@ end
 #   RUN GUESS   #
 ################
 
-def run_guessing_game
-  play_game
-end 
+#def run_guessing_game
+  #play_game
+#end 
