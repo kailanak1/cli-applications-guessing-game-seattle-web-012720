@@ -16,6 +16,7 @@ end
 def play_game
   prompt 
   input = get_user_input
+  number = generate_number.to_s
   if input == "exit"
     puts "Goodbye!"
   elsif input.to_i == generate_number
