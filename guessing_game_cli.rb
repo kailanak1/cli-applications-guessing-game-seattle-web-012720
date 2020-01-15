@@ -22,7 +22,6 @@ def play_game
     puts "You guessed the correct number!"
   else 
     "Sorry! The computer guessed #{generate_number}."
-    print #{generate_number}
   end 
 end 
 
