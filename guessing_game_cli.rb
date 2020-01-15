@@ -13,6 +13,10 @@ def get_user_input
   gets.chomp 
 end
 
+def incorrect_guess
+  puts "Sorry! The computer guessed #{generate_number}."
+end 
+
 def play_game
   prompt 
   input = get_user_input
