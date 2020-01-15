@@ -18,6 +18,7 @@ def play_game
   input = get_user_input
   if input == "exit"
     puts "Goodbye!"
+  end 
   elsif input.to_i == generate_number
     puts "You guessed the correct number!"
   else 
