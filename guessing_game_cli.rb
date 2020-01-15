@@ -25,7 +25,7 @@ def play_game
   elsif input.to_i == generate_number
     puts "You guessed the correct number!"
   else 
-    "Sorry! The computer guessed #{generate_number}."
+    incorrect_guess
   end 
 end 
 
